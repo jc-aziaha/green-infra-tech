@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <a href="" class="logo">Logo</a>
+
+        <nav class="navbar">
+            <ul>
+                <li><a data-scroll="home" href="#particles-js" class="active">Accueil</a></li>
+                <li><a data-scroll="feature" href="#about-us-section">Notre vision</a></li>
+                <li><a data-scroll="about" href="#description-section">Nos expertises</a></li>
+                <li><a data-scroll="gallery" href="#future-section">Future</a></li>
+                <li><a data-scroll="contact" href="#contact-section">contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="fas fa-bars"></div>
+
+    </header>
+
+    <div id="particles-js">
+        <div>
+            <h1>Green Infra Tech</h1>
+        </div>
+    </div>
+
+    <div id="about-us-section">
+        <h2>Notre vision</h2>
+        <p>Inspiré par l'ambition de nombre des états de la CEDEAO, de parvenir à l'émergence dans les années à venir,
+            Green InfraTech entend devenir un des acteurs incontournables de ces plans de développement à travers sa
+            politique basée sur 3 axes qui sont: </p>
+        <ul>
+            <li> <i class="fas fa-check"></i> La consolidation des technologies de constructions et la recherche de
+                méthodologie novatrice.</li>
+            <li> <i class="fas fa-check"></i> L'accès à l'énergie pour tous.</li>
+            <li> <i class="fas fa-check"></i> Dynamisation de l'économie en milieu rural à travers la commercialisation
+                des équipements à usage productif en mode paygo.</li>
+        </ul>
+    </div>
+
+    <section id="description-section">
+        <h2 class="description-h2">Nos services</h2>
+        <div class="container">
+            <div class="card card1">
+                <div class="img-div">
+                    <img id="desc_1" src="{{ asset('images/desc_1.png') }}" alt="">
+                </div>
+                <div class="text-div">
+                    <h3>Des infrastructures</h3>
+                    <ul>
+                        <li>Conseils pour la conception des ouvrages résidentiels et tertiaires;</li>
+                        <li>Etudes d'exécutions des ouvrages;</li>
+                        <li>Exécutions des travaux;</li>
+                        <li>Suivi des travaux;</li>
+                        <li>Maintenance de ouvrages;</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="card card2">
+                <div class="img-div">
+                    <img id="desc_2" src="images/desc_2.png" alt="">
+                </div>
+                <div class="text-div">
+                    <h3>De l'accès à l'énergie pour tous</h3>
+                    <ul>
+                        <li>Conseils pour la conception des systèmes de production à base des énergies renouvelableset
+                            audits énergétiques;</li>
+                        <li>Etudes d'exécutions pour systèmes de production à base des énergies renouvelables et
+                            d'audits énergétiques.</li>
+                        <li>Réalisations des travaux pour les systèmes production à base d'énergie renouvelable et
+                            d'audits énergétiques.</li>
+                        <li>Suivi des travaux;</li>
+                        <li>Maintenance de systèmes production à base des énergies renouvelables;</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="card card3">
+                <div class="img-div">
+                    <img id="desc_3" src="images/desc_3.jpg" alt="">
+                </div>
+                <div class="text-div">
+                    <h3>De l'import-export et des négoces</h3>
+                    <ul>
+                        <li>commercialisation des systèmes de production à base d'energies renouvelables.</li>
+                        <li>Vente de système d'irrigation en mode paygo.</li>
+                        <li>Vente des systèmes d'AEP en mode paygo.</li>
+                        <li>Equipements à usage productifs en mode paygo.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="parallax-div"></div>
+
+    <section id="future-section">
+        <h2>Nos perspectives à court et moyen terme</h2>
+        <p> Green Infra Tech se prépare dans les mois à venir à postuler à des marchés financés par la BAD dans des
+            programmes de développement sociaux , avec des partenaires de rang internationaux dans le domaine de
+            l'électrification rurales à base d'énergie renouvelable et dans des programmes de soutient aux agriculteurs
+            et aux communautés rurales à travers l'installation et la maintenance des systèmes à base des sources
+            d'energies renouvelables.
+            A moyen terme, Green Infra Tech entend développer ses propres méthodologies de constructions et de
+            distributions d'équipements à usage productifs afin de toucher les populations rurales et participer ainsi à
+            dynamiser les économies locales.</p>
+    </section>
+
+    <section id="contact-section">
+        <h2>Contactez-nous</h2>
+        <div class="container">
+            <div class="infos-div">
+                <p><strong>Email</strong>: ...</p>
+                <p><strong>Téléphone</strong>: 00228 ...</p>
+            </div>
+            <div class="form-div">
+                <form action="">
+                    <div class="form-group">
+                        <input type="text" name="last_name" class="form-control" placeholder="Votre nom" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="first_name" class="form-control" placeholder="Votre prénom" />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Votre email" />
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" class="form-control" placeholder="Votre numéro de téléphone" />
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="6" placeholder="Votre message" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" name="send_button" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Green-Infra-Tech</p>
+    </footer>
+
+    <!-- jquery cdn link  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="{{ asset('js/particles.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/particles_app.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- custom js file link  -->
+    <script src="assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>
+
+        
+        <!-- @if (Route::has('login'))
+            <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                @auth
+                    <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+                @else
+                    <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+
+                    @if (Route::has('register'))
+                        <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                    @endif
+                @endauth
+            </div>
+        @endif -->
+
+
